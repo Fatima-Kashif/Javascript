@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  align-content: center;
+  margin: auto;
+  height: 100vh;
+}
+label{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.box{
+    color: antiquewhite;
+    background-color: rgb(21, 183, 189);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+.buttons{
+    margin-top: 30px;
+}
+.button{
+    background-color: rgb(57, 145, 240);
+    color: aliceblue;
+    font-size: larger;
+    border-radius: 5px;
+    transition: background-color 0.25s;
+
+}
+.button:hover{
+    background-color: rgb(23, 23, 183);
+}
